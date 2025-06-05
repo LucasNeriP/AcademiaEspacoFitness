@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+
+body{
+    background-color: black;
+    background: url(img/fundoCINZAacademia.png) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+header{
+    background-color: #FFD700; 
+    text-align: center;
+    padding: 20px  10px ;
+} 
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin-left: 70px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#logo {
+    height: 150px;
+}
+
+#titulo{
+    background-color: #FFD700; 
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+}
+
+#frase_efeito{
+    color: #000000;
+    font-size: 1.4em;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 10px;
+
+}
+
+#frase_efeito2{
+    margin-right: 7px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4em;
+}
+
+#caixa{
+    background-color: rgb(216, 213, 16);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+nav{
+    padding: 30px;
+    text-align: center;
+    margin-left: 20px ;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 25px;
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFD700;
+    border-radius: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0px 20px;
+    font-size: 30px;
+    transition: background-color 1s ease, color 2s ease;
+}
+
+nav a:hover{
+    background-color: #000000;
+     color: #FFD700;
+}
+
+.logo {
+    width: 30px;
+}
+
+.vid01 {
+    width: 90%;
+    height: 70%;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 30px 30px;
+}
+
+bx-pager {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.bx-pager .bx-pager-link {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 34 5px;
+  background-color: rgba(0, 0, 0, 0.842);
+  border: 8px solid #fffb00;
+  border-radius: 50%;
+  text-indent: -9999px;
+  transition: 0.3s;
+}
+
+.bx-pager .bx-pager-link.active {
+  background-color: #FFD700;
+}
+
+
+#bloco_icones{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+    flex-wrap: nowrap;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.34s ease;
+}
+
+.icones:hover{
+    transform: scale(1.04);
+}
+
+.icones p{
+    color: #FFD700;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+}
+
+.icones img{
+    max-height: 90%;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+#modalidades h2{
+    color: #FFD700;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container_modalidades{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img_modalidades img{
+    width: 250px;
+    border-radius: 20px;
+    transition: transform 1.06s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.img_modalidades p{
+    margin-top: 10px;
+    color: #FFD700;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.img_modalidades img:hover{
+    transform: scale(1.08)
+}
+
+.container_modalidades_part2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#musculacao h2{
+    color: #FFD700;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.traço_sobre_modalidades{
+    background-color: #fff700;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    height: 10px;
+    
+    width: 100px;
+}
+
+.sobre_modalidades{
+    color: #FFD700;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+#container_planos h2{
+    color: #FFD700;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.planos_geral{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    overflow: auto;
+    margin-top: -90px;
+}
+
+.planos_geral h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    flex-wrap: nowrap;
+}
+
+.planos{
+    background-color: #FFD700;
+    border-radius: 20px;
+    width:300px;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.64s ease
+}
+
+.planos:hover{
+    transform: scale(1.07);
+}
+
+.planos img{
+    margin-top: -20px;
+}
+
+.planos p{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.preço{
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: -5px;
+    font-size: 40px;
+}
+
+#formas_pagamento{
+    font-size: 30px;
+ }
+
+.info_extra {
+    background-color: #FFD700;
+    padding:20px;
+    width: 70%;
+    max-width: 1260px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center; transition: transform 0.64s ease;
+    padding: 40px 20px;
+    overflow: auto;
+    flex-wrap: wrap;
+
+}
+
+.info_extra:hover{
+    transform: scale(1.07);
+}
+
+.info_extra h3{
+    font-size: 80px;
+}
+
+.info_extra p{
+    font-size: 30px;
+}
+
+.info_extra .traço_h1_horarios{
+    margin-top: 10px;
+}
+
+.container_plano_promoçao .planos{
+    margin-top: 40px;
+}
+
+.container_plano_promoçao .planos p{
+    font-size: 30px;
+}
+
+.container_plano_promoçao .planos img{
+     margin-top: -30px;
+}
+
+#horarios h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFD700;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#horarios p{
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+#container_horarios{
+    background-color: #FFD700;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    flex-wrap: wrap;
+ 
+}
+
+#container_horarios h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+#container_horarios img{
+    width: 1000px;
+}
+
+.traço_h1_horarios{
+    background-color: #000000;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    height: 10px;
+}
+
+.container_footer {
+    padding: 40px;
+    margin-top: 100px;
+    background-color: #000;
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.container_footer h1 {
+    font-size: 50px;
+    color: #FFD700;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.footer_conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 300px;
+    min-width: 280px;
+}
+
+.linha_vertical {
+    width: 2px;
+    background-color: #FFD700;
+    height: auto;
+    align-self: stretch;
+    flex-shrink: 0;
+    display: none;
+}
+
+.frase {
+    color: #FFD700;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    align-self: center;
+    flex: 1 1 300px;
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.64s ease;
+}
+.item a:hover{
+    transform: scale(1.007);
+    color: #FFD700;
+}
+
+.item img {
+    width: 25px;
+    height: 25px;
+}
+
+.item p, .item a {
+    font-size: 18px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+@media (min-width: 900px) {
+  .footer_conteudo {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .linha_vertical {
+    display: block;
+  }
+
+  .frase {
+    font-size: 60px;
+    text-align: center;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px;
+  }
+
+  #titulo {
+    font-size: 1.8em;
+  }
+
+  #frase_efeito, #frase_efeito2 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  nav a {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+
+  .logo-container {
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #logo {
+    height: 100px;
+  }
+
+  .vid01 {
+    max-width: 95%;
+    margin: 20px auto;
+  }
+
+  #bloco_icones {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .icones p {
+    font-size: 22px;
+  }
+
+  #modalidades h2,
+  #musculacao h2,
+  #container_planos h2,
+  #horarios h2 {
+    font-size: 40px;
+  }
+
+  .sobre_modalidades {
+    font-size: 18px;
+    margin: 0 20px;
+  }
+
+  .planos {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .planos h3 {
+    font-size: 30px;
+  }
+
+  .preço {
+    font-size: 30px;
+  }
+
+  #container_horarios img {
+    width: 100%;
+  }
+
+  .info_extra h3 {
+    font-size: 40px;
+  }
+
+  .info_extra p {
+    font-size: 20px;
+  }
+
+  .container_footer {
+    padding: 20px;
+  }
+
+  .container_footer h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .frase {
+    font-size: 24px;
+    white-space: normal;
+  }
+
+  .item p, .item a {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
